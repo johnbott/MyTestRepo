@@ -1,7 +1,19 @@
-Script started on Tue Nov 19 22:25:56 2013
-[?1034hbash-3.2$ typescript
-bash: typescript: command not found
-bash-3.2$ ex[K[Kexit
+Script started on Tue Mar 25 06:12:11 2014
+[?1034hbash-3.2$ script/server
+bash: script/server: No such file or directory
+bash-3.2$ script -v
+script: illegal option -- v
+usage: script [-akq] [-t time] [file [command ...]]
+bash-3.2$ script server
+Script started, output file is server
+[?1034hbash-3.2$ ex[K[K
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ exit
 exit
 
-Script done on Tue Nov 19 22:27:16 2013
+Script done, output file is server
+bash-3.2$ exit
+exit
+
+Script done on Tue Mar 25 06:14:59 2014
